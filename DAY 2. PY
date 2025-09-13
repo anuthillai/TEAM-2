@@ -1,0 +1,80 @@
+flow control conditional statements [if, elif, else]
+a=int(input("enter a value="))
+b=int(input("enter b value="))
+c=int(input("enter c value="))
+  if a>b and a>c:
+    print("a is greatest")
+  elif b>c:
+    print("b is greatest")
+  else:
+    print("c is greatest")
+output
+  a=10
+  b=20
+  c=30
+  c is greatest
+
+for loops
+      fruits=["apple","banana","cherry"]
+         for fruit in fruits:
+             print(fruit)
+output
+      apple
+      banana
+      cherry
+
+while loops
+      count=0
+      while count<5:
+         print(f"countis:{count}")
+         count+=1
+      print("loop finished")
+output
+      count is:0
+      count is:1
+      count is:2
+      count is:3
+      count is:4
+      loop finished
+
+break in nested loop
+        for i in range(3)
+          for j in range(3)
+             if j == 1
+              break
+             print(f"i:{i},{j})
+output
+      i:0,j:0
+      i:1,j:0
+      i:2,j:0
+
+continue in nested loop
+      for i in range(3)
+        for j in range(3)
+            if j == 1
+             continue
+            print(f"i:{i},j:{j}")
+output
+      i:0,j:0
+      i:0,j:2
+      i:1,j:0
+      i:1,j:2
+      i:2,j:0
+      i:2,j:2
+
+pass in nested loop
+      for i in range(3)
+        for j in range(3)
+          if j == 1
+            pass
+          print(f"i:{i},j:{j}")
+output
+      i:0,j:0
+      i:0,j:1
+      i:0,j:2
+      i:1,j:0
+      i:1,j:1
+      i:1,j:2
+      i:2,j:0
+      i:2,j:1
+      i:2,j:2
