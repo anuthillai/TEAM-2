@@ -1,0 +1,23 @@
+python lists
+ ex
+   thislist= ["theri","trip","final destination"]
+   print( thislist)
+
+python tuples
+ ex
+   thistuple= ("02","september","2007")
+   print(thistuple)
+
+python sets
+ ex
+   thisset= {"bold red","bold black","white"}
+   print(thisset)
+
+python dictionaries
+ ex
+   thisdict= { 
+      "name":"anupriyaa",
+      "age":"18",
+      "course":"biotecnology"
+        }
+   print(thisdict)
