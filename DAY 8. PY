@@ -1,0 +1,18 @@
+python functions
+ex
+def add_function(a,b)
+     result=a+b
+     return result
+op=add_function(1,2)
+print(op)
+output
+  3
+
+python lambda
+ex
+def power_function(num:int)
+   return lambda x:x**num
+square=power_function(2)
+ print(square(3))
+output
+  9
