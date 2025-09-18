@@ -1,0 +1,56 @@
+python if else 
+ex
+ n=int(input("enter the value of n:")
+ if(n%2==0):
+      print("even number")
+ else:
+      print("odd number")
+output
+    10
+    even number
+
+python match
+ex
+  day=4
+  match day:
+     case 1:
+      print("monday")
+     case 2:
+      print("tuesday")
+     case 3:
+      print("wednesday")
+     case 4:
+      print("thursday")
+     case 5:
+      print("friday")
+     case 6:
+      print("saturday")
+     case 7:
+      print("sunday")
+
+python while loops
+
+ex
+count=0
+while count<5
+      print(f"count is:{count}")
+      count+=1
+print("loop finished")
+output 
+ count is: 0
+ count is: 1
+ count is: 2
+ count is: 3
+ count is: 4
+ loop finished
+
+python for loops 
+
+ex
+foods=["curd rice","veg fried rice","dosa"]
+    for food in foods:
+       print(food)
+output
+  curd rice
+  veg fried rice
+  dosa
